@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <h1>All About Water - Unblocked Games</h1>
+    <h1>All About Water </h1>
     <label for="games">Select a game:</label>
     <select id="games">
         <option value="">--Select a Game--</option>
