@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Water - Unblocked Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>All About Water - Unblocked Games</h1>
+    <label for="games">Select a game:</label>
+    <select id="games" onchange="redirectToGame()">
+        <option value="">--Select a Game--</option>
+        <option value="https://example.com/game1">Water Adventure 1</option>
+        <option value="https://example.com/game2">Ocean Explorer</option>
+        <option value="https://example.com/game3">River Rescue</option>
+        <option value="https://example.com/game4">Aquatic Challenge</option>
+        <option value="https://example.com/game5">Submarine Quest</option>
+        <option value="https://example.com/game6">Underwater Treasure Hunt</option>
+        <option value="https://example.com/game7">Water Balloon Fight</option>
+        <option value="https://example.com/game8">Splash Race</option>
+        <option value="https://example.com/game9">Coral Kingdom</option>
+        <option value="https://example.com/game10">Rainforest Run</option>
+        <!-- Add more options up to 600 games -->
+    </select>
+    <script src="script.js"></script>
+</body>
+</html>
+
