@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Dark teal color */
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+}
