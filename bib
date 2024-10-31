@@ -1,0 +1,60 @@
+html
+<!DOCTYPE html>
+<html lang=\en\<head>
+<meta charset=\UTF-8\ <meta name=\viewport\ content=\width=device-width, initial-scale=1.0\ <title>Browser Inside a Browser</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f7f7f7;
+}
+.outer-browser {
+width: 80%;
+height: 80%;
+border: 2px solid #007BFF;
+border-radius: 8px;
+position: relative;
+overflow: hidden;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+background-color: white;
+}
+.header {
+background-color: #007BFF;
+color: white;
+padding: 10px;
+text-align: center;
+font-size: 1.2em;
+}
+.inner-browser {
+width: 90%;
+height: 90%;
+margin: 10px auto;
+border: 2px solid #6c757d;
+border-radius: 4px;
+overflow: hidden;
+position: relative;
+background-color: #fff;
+}
+.content {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+color: #343a40;
+}
+</style>
+</head>
+<body>
+<div class=\outer-browser\ <div class=\header\Outer Browser</div>
+<div class=\inner-browser\ <div class=\header\Inner Browser</div>
+<div class=\content\ Nested Content
+</div>
+</div>
+</div>
+</body>
+</html>
