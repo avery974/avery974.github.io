@@ -1,0 +1,37 @@
+html
+<!DOCTYPE html>
+<html lang=\en\<head>
+<meta charset=\UTF-8\ <meta name=\viewport\ content=\width=device-width, initial-scale=1.0\ <title>Browser Inside a Browser</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+}
+.outer-browser {
+width: 80%;
+height: 80%;
+border: 2px solid #007bff;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+}
+.inner-browser {
+width: 100%;
+height: 100%;
+border: none;
+}
+</style>
+</head>
+<body>
+
+<div class=\outer-browser\ <iframe class=\inner-browser\ src=\https://example.com\ title=\Inner Browser\iframe>
+</div>
+
+</body>
+</html>
